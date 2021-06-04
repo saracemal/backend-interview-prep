@@ -10,3 +10,7 @@ In object oriented programming, an object is an instance of a class, and in Ruby
 
 4. What is the difference between delete and destroy?
 Delete will delete a record, and destroy will delete a record and execute corresponding callbacks. 
+
+5. What is the difference between class methods and instance methods? 
+Class methods are for classes and instance methods are meant for instances, which should go without saying. For a an Article class, a class method could count the number of articles associated to that class. However, an instance method could recall the amount of words in a specific article. 
+Class methods are denoted by def self.method_name
