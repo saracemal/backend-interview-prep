@@ -14,3 +14,6 @@ Delete will delete a record, and destroy will delete a record and execute corres
 5. What is the difference between class methods and instance methods? 
 Class methods are for classes and instance methods are meant for instances, which should go without saying. For a an Article class, a class method could count the number of articles associated to that class. However, an instance method could recall the amount of words in a specific article. 
 Class methods are denoted by def self.method_name
+
+6. Is Ruby strongly or weakly typed? 
+Ruby is "strongly" typed, and the way we know this is because an error will be thrown if you type "hello" + 3. In comparison, Javascript is weakly typed, and if you tried "hello" + 3, you would get "hello3". 
