@@ -29,7 +29,7 @@ Ruby is "strongly" typed, and the way we know this is because an error will be t
  
  8. What is the difference between .select, .map, and .collect?
  .map will perform an action on the array and mutates it into a new array. 
- .collext functions similarly to .map. 
+ .collect functions similarly to .map. 
  .select will perform an action on the array and return a new array. 
  
  9. What is the difference between a class and a module?
@@ -38,3 +38,6 @@ Ruby is "strongly" typed, and the way we know this is because an error will be t
  10. What is the difference between Hash and JSON?
 Hash is a Ruby class, a collection of key/value pairs that allows accessing values by keys.
 JSON is a string in a specific format for sending data.
+
+11. What is MVC?
+Model -> View -> Controller, it is a software design pattern that is built around Rails and it splits the handling of info into three sections. The model handles data and logic, the view will display info to the user, the controller takes input and prepares data for a model or view. 
