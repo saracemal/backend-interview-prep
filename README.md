@@ -17,3 +17,17 @@ Class methods are denoted by def self.method_name
 
 6. Is Ruby strongly or weakly typed? 
 Ruby is "strongly" typed, and the way we know this is because an error will be thrown if you type "hello" + 3. In comparison, Javascript is weakly typed, and if you tried "hello" + 3, you would get "hello3". 
+
+7. What are the CRUD verbs and actions in Ruby?
+ GET = index
+ GET = new 
+ POST = create
+ GET = show
+ GET = edit
+ PATCH/PUT = update
+ DELETE = destroy
+ 
+ 8. What is the difference between .select, .map, and .collect?
+ .map will perform an action on the array and mutates it into a new array. 
+ .collext functions similarly to .map. 
+ .select will perform an action on the array and return a new array. 
