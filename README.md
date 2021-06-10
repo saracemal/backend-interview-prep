@@ -31,3 +31,10 @@ Ruby is "strongly" typed, and the way we know this is because an error will be t
  .map will perform an action on the array and mutates it into a new array. 
  .collext functions similarly to .map. 
  .select will perform an action on the array and return a new array. 
+ 
+ 9. What is the difference between a class and a module?
+ A class has attributes and methods and can have instances created of them. A module is a collection of methods and constants which can be mixed with other modules or classes. 
+ 
+ 10. What is the difference between Hash and JSON?
+Hash is a Ruby class, a collection of key/value pairs that allows accessing values by keys.
+JSON is a string in a specific format for sending data.
