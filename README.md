@@ -41,3 +41,6 @@ JSON is a string in a specific format for sending data.
 
 11. What is MVC?
 Model -> View -> Controller, it is a software design pattern that is built around Rails and it splits the handling of info into three sections. The model handles data and logic, the view will display info to the user, the controller takes input and prepares data for a model or view. 
+
+12. What is the difference between count, length, and size? 
+Size and length function similarly: it canbe used to count characters in a string, or return the number of items in a collection's memory. it's quicker than count because it doesn't require a database transaction. with that being said, count will execute a SQL query to count the number of records. 
