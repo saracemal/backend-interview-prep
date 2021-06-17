@@ -44,3 +44,24 @@ Model -> View -> Controller, it is a software design pattern that is built aroun
 
 12. What is the difference between count, length, and size? 
 Size and length function similarly: it canbe used to count characters in a string, or return the number of items in a collection's memory. it's quicker than count because it doesn't require a database transaction. with that being said, count will execute a SQL query to count the number of records. 
+
+13. What are getters and setters in Ruby?
+A getter allows you to access a variable in Ruby, and a setter allows you to set a variable. Ruby has three built in accessor methds that accomplish the same thing and are cleaner looking: attr_reader (getter), attr_writer (setter), and attr_accessor (getter and setter). 
+
+14. What happens when you call a method in Ruby? 
+A message containing the method's name is sent to the object, and if the method exists, it will be called on the object. 
+ex: obj.hello => 'hello'
+obj.send(:hello) => 'hello'
+
+15. What is a gemfile?
+It is where we specify different dependencies used in a Ruby application. 
+
+16. What is gemfile.lock? 
+The gemfile.lock file holds a record of the exact versions of an installed gem. This way the same versions can be installed if someone decides to clone the project. 
+
+17. How does rails manage database state? 
+The developer manually generates and adds instructions to migration files.
+These instruct ActiveRecord how to modify the existing database state. For this reason, deleting or modifying previous migrations can put the database into a bad state and is not recommended.
+
+18. What are initializers in Rails?
+Initializers hold knowledge regarding configuration and only run when the software is booted. If initializers are changed, then the app needs to be restarted. 
