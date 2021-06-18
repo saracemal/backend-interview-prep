@@ -65,3 +65,10 @@ These instruct ActiveRecord how to modify the existing database state. For this 
 
 18. What are initializers in Rails?
 Initializers hold knowledge regarding configuration and only run when the software is booted. If initializers are changed, then the app needs to be restarted. 
+
+19. What is a PORO?
+PORO = plain old ruby object. even though mostly everyting in ruby is a project, this signifies that is not complex. 
+
+20. What is ActiveRecord? 
+Active Record is an ORM (object-relational mapping) that maps models to database tables. It simplifies setting up an app because we no longer have to write SQL directly to load, save, or delete objects.
+It also provides some protection against SQL injection.
