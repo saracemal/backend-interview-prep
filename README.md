@@ -72,3 +72,9 @@ PORO = plain old ruby object. even though mostly everyting in ruby is a project,
 20. What is ActiveRecord? 
 Active Record is an ORM (object-relational mapping) that maps models to database tables. It simplifies setting up an app because we no longer have to write SQL directly to load, save, or delete objects.
 It also provides some protection against SQL injection.
+
+21. What are five things that rails migrations can do?
+Migrations can rename a table, add/change a column, drop a table, and remove a table. 
+
+22. Name the four types of variables in RoR. 
+Class, instance, global, and local variables. 
