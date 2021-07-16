@@ -78,3 +78,8 @@ Migrations can rename a table, add/change a column, drop a table, and remove a t
 
 22. Name the four types of variables in RoR. 
 Class, instance, global, and local variables. 
+
+23. How to list all routes in an app?
+$ rake routes
+
+24. 
