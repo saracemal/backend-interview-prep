@@ -82,4 +82,8 @@ Class, instance, global, and local variables.
 23. How to list all routes in an app?
 $ rake routes
 
-24. 
+24.  What is the difference between class methods and instance methods?
+Class methods are available on classes, and instance methods are available on instances (of course).They are typically used for different purposes.
+For a class, Article, an instance method may count the number of words in the body of a specific article. While a class method may count the number of articles by a particular writer across all articles (notice the difference in scope?).
+Class methods are denoted by def self.method_name.
+
