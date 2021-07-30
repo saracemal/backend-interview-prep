@@ -89,3 +89,6 @@ Class methods are denoted by def self.method_name.
 
 25. Does Ruby allow multiple inheritances?
 Ruby does not allow inheriting from more than one parent class, but it does allow module mixins with include and extend.
+
+26. What is the meaning of “skinny controllers, skinny models”?
+As a codebase grows, fat models get out of hand, start doing too many things and become unmanageable. Models should handle persistence without being bloated with logic. Models can be made skinnier by keeping the single responsibility principle in mind and moving logic out of models, and into other design patterns like service objects.
