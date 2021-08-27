@@ -92,3 +92,13 @@ Ruby does not allow inheriting from more than one parent class, but it does allo
 
 26. What is the meaning of “skinny controllers, skinny models”?
 As a codebase grows, fat models get out of hand, start doing too many things and become unmanageable. Models should handle persistence without being bloated with logic. Models can be made skinnier by keeping the single responsibility principle in mind and moving logic out of models, and into other design patterns like service objects.
+
+27. What is unit testing (in classical terms)? What is the primary technique when writing a test?
+The strongest candidates should be quite comfortable with test or behavior driven development.
+
+Unit testing, simply put, is testing methods -- the smallest unit in object-oriented programming. Strong candidates will argue that it allows a developer to flesh out their API before it's consumed by other systems in the application.
+
+The primary way to achieve this is to assert that the actual result of the method matches an expected result.
+
+28. Name the three levels of access control for Ruby methods.
+In Ruby, methods may either be public, protected, or private. Public methods can be called by anyone. Protected methods are only accessible within their defining class and its subclasses. Private methods can only be accessed and viewed within their defining class.
